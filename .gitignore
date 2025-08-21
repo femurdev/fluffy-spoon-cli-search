@@ -1,3 +1,11 @@
 # Exclude SQLite database files
 *.sqlite
 *.db
+# Exclude SQLite database files
+*.sqlite
+*.db
+# Exclude Python bytecode
+*.pyc
+__pycache__/
+# Exclude logs
+*.log
