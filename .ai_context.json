@@ -1,4 +1,4 @@
 {
     "crawler_current_state": "The crawler is now multithreaded and supports a --depth argument with a default of 2. Documentation has been updated, and planned enhancements include robots.txt compliance, retry mechanisms, and improved logging.",
-    "current_task": "Investigating and resolving the issue of empty 'title' and 'description' fields in the database. Planning to populate these fields with placeholder data or address why they are not being saved correctly during crawling."
+    "current_task": "Enhancing crawler deduplication logic to avoid redundant database writes and improving error handling for invalid or unreachable domains."
 }

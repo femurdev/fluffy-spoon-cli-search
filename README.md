@@ -115,3 +115,27 @@ python3 crawl.py https://example.com --depth=3
 
 ### Contributing
 Contributions are welcome! Please refer to the `CONTRIBUTING.md` file for guidelines.
+## Enhancements to Search and Crawl Functionality
+
+### Search Improvements
+- **Domain Consolidation**: Group results from subdirectories of the same domain to reduce redundancy.
+- **Relevance Filtering**: Implement filtering logic to exclude results with low keyword matching scores.
+
+#### Planned Features:
+- Add options to sort results by relevance or freshness.
+- Introduce a `--unique-domains` flag to restrict results to unique domains.
+
+### Crawl Enhancements
+- **Metadata Enrichment**: Improve the extraction and storage of `title` and `description` fields to reduce empty or placeholder data.
+- **URL Normalization**: Ensure all URLs are stored in a normalized format to avoid duplicates.
+
+#### Planned Features:
+- Implement `robots.txt` parsing to respect crawling restrictions.
+- Add support for language-specific crawling and filtering.
+
+### Edge Cases and Solutions
+- **Circular Links**: Prevent infinite loops by maintaining a history of visited URLs.
+- **Duplicate Content**: Use hashing to detect and skip duplicate pages.
+- **Rate Limiting**: Include delays between requests to avoid overloading servers.
+
+These enhancements aim to make the crawler and search functionalities more robust and user-friendly.
