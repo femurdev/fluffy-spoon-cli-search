@@ -1,0 +1,8 @@
+2025-08-21 12:14:16,991 - INFO - Successfully crawled: https://example.com
+2025-08-21 12:14:16,992 - WARNING - URL already exists in the database: https://example.com
+2025-08-21 12:14:18,023 - ERROR - Failed to crawl https://nonexistent.url: HTTPSConnectionPool(host='nonexistent.url', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106649310>: Failed to resolve 'nonexistent.url' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-08-21 12:14:19,029 - INFO - Crawling completed!
+2025-08-21 12:15:18,632 - INFO - Successfully crawled: https://example.com
+2025-08-21 12:15:18,633 - WARNING - URL already exists in the database: https://example.com
+2025-08-21 12:15:19,644 - ERROR - Failed to crawl https://nonexistent.url: HTTPSConnectionPool(host='nonexistent.url', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10440d090>: Failed to resolve 'nonexistent.url' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-08-21 12:15:20,645 - INFO - Crawling completed!

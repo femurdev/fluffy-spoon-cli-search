@@ -1,11 +1,14 @@
-# Exclude SQLite database files
-*.sqlite
+# Ignore the SQLite database files
 *.db
-# Exclude SQLite database files
-*.sqlite
-*.db
-# Exclude Python bytecode
-*.pyc
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-# Exclude logs
-*.log
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+*.egg-info/
+previousAttempt
