@@ -1,4 +1,4 @@
 {
-    "crawler_current_state": "The crawler script has identified potential bugs like malformed URLs, silent failures, and database locking issues. Fixes are being planned for improved robustness and functionality.",
-    "current_task": "Brainstorming new features like user-configurable crawling depth, language filtering for search, and retry mechanisms for transient errors in the crawler."
+    "crawler_current_state": "The crawler is now multithreaded and supports a --depth argument with a default of 2. Documentation has been updated, and planned enhancements include robots.txt compliance, retry mechanisms, and improved logging.",
+    "current_task": "Investigating and resolving the issue of empty 'title' and 'description' fields in the database. Planning to populate these fields with placeholder data or address why they are not being saved correctly during crawling."
 }
